@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ddd; /*Cor de fundo do titulo do site*/
+            color: rgb(0, 0, 0); /*Cor da fonte do titulo do site*/
+            padding: 20px; /*Ajusta o tamanho do titulo do site*/
+            text-align: center; /*Ajusta o titulo do site ao centro*/
+        }
+
+        .container {
+            width: 80%; /*Ajusta o posicionamento das div*/
+            margin: auto; /*Ajusta o posicionamento das div*/
+        }
+
+        button {
+            background: rgb(193, 166, 166); /*Cor de fundo dos botões*/
+            color: rgb(0, 0, 0); /*Cor da fonte*/
+            border: none; /*Remove as bordas dos botões*/
+            border-radius: 8px; /*Arredonda as bordas dos botões*/
+            cursor: pointer; /*Muda o formato do cursor ao passar sobre os botões*/
+            font-size: 21px; /*Tamanho da fonte*/
+            font-weight: bold; /*Fonte em negrito*/
+            width: 100%; /*Iguala o tamanho dos botões*/
+            height: 60px; /*Iguala o tamanho dos botões*/
+        }
+
+        button:hover {
+            background-color: #444; /*Muda a cor dos botões ao passar o cursor*/
+        }
+
+        .botoes {
+            padding: 20px; /*Define o tamanho da div botoes*/
+            background: #f4f4f4; /*Define a cor de fundo div botoes*/
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /*Define o modo em que botões são apresentados*/
+            gap: 20px; /*Define a distancia entre os botões*/
+        }
+        
+        .lista {
+            font-weight: bold; /*coloca a lista em negrito*/
+            font-size: 20px;
+        }
+
+        .form-container {
+            margin-top: 20px; /*ajusta a posição do formulário*/
+        }
+
+        .form-container label {
+            font-size: 18px; /*determina o tamanho da fonte do formulário*/
+            font-weight: bold; /*fonte em negrito*/
+            margin-bottom: 10px; /*ajusta a posição do formulário*/
+        }
+
+        .form-container input, .form-container textarea {
+            width: 100%; /*ajusta a posição do formulário*/
+            padding: 10px; /*ajusta a posição do formulário*/
+            font-size: 16px;
+            margin-bottom: 20px; /*ajusta a posição do formulário*/
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .form-container textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header>
+
+           <!-- Título da página -->
+        <div class="container">
+            <h1>Contato</h1>   
+        </div>
+    </header>
+ 
+           <!-- Formulário -->
+    <div class="container form-container">
+        <form>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem"></textarea>
+        </form>
+        <button>Enviar</button>
+    </div>
+
+           <!-- Botão de voltar -->
+    <div class="botoes">
+        <a href="Pagina Inicial.html"><button>Voltar</button></a>  
+    </div>
+</body>
+
+</html>

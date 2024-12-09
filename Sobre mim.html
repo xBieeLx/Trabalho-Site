@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ddd; /*Cor de fundo do titulo do site*/
+            color: rgb(0, 0, 0); /*Cor da fonte do titulo do site*/
+            padding: 20px; /*Ajusta o tamanho do titulo do site*/
+            text-align: center; /*Ajusta o titulo do site ao centro*/
+        }
+
+        .container {
+            width: 80%; /*Ajusta o posicionamento das div*/
+            margin: auto; /*Ajusta o posicionamento das div*/
+        }
+
+        button {
+            background: rgb(193, 166, 166); /*Cor de fundo dos botões*/
+            color: rgb(0, 0, 0); /*Cor da fonte*/
+            border: none; /*Remove as bordas dos botões*/
+            border-radius: 8px; /*Arredonda as bordas dos botões*/
+            cursor: pointer; /*Muda o formato do cursor ao passar sobre os botões*/
+            font-size: 21px; /*Tamanho da fonte*/
+            font-weight: bold; /*Fonte em negrito*/
+            width: 100%; /*Iguala o tamanho dos botões*/
+            height: 60px; /*Iguala o tamanho dos botões*/
+        }
+
+        button:hover {
+            background-color: #444; /*Muda a cor dos botões ao passar o cursor*/
+        }
+
+        .botoes {
+            padding: 20px; /*Define o tamanho da div botoes*/
+            background: #f4f4f4; /*Define a cor de fundo div botoes*/
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /*Define o modo em que botões são apresentados*/
+            gap: 20px; /*Define a distancia entre os botões*/
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <!-- Título da página -->
+        <div class="container">
+            <h1>Sobre mim</h1>   
+        </div>
+
+    </header>
+
+    <!-- Texto da página -->
+    <div class="container"> 
+           <h3> Meu nome é Gabriel Cunha Carvalho, tenho 21 anos e sou estudante de Análise e Desenvolvimento de Sistemas. Nasci em Guaratuba, no litoral do Paraná, e continuo morando nesta cidade. Tenho uma grande paixão por música e toco violino na igreja, o que é uma das minhas atividades favoritas. Além disso, gosto de assistir a filmes e séries, jogar videogames e praticar esportes, sou fã de diversas modalidades, como automobilismo, futebol e vôlei, sempre buscando me manter ativo e entretido.</h3>
+        </div>
+    </div>
+
+    <!-- Botão de voltar -->
+    <div class="botoes">
+        <a href="Pagina Inicial.html"><button>Voltar</button></a>  
+    </div>
+</body>
+
+</html>
