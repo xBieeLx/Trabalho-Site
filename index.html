@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #ddd; /*Cor de fundo do titulo do site*/
+            color: rgb(0, 0, 0); /*Cor da fonte do titulo do site*/
+            padding: 20px; /*Ajusta o tamanho do titulo do site*/
+            text-align: center; /*Ajusta o titulo do site ao centro*/
+        }
+
+        .container {
+            width: 80%; /*Ajusta o posicionamento das div*/
+            margin: auto; /*Ajusta o posicionamento das div*/
+        }
+
+        .botoes {
+            padding: 20px; /*Define o tamanho da div botoes*/
+            background: #ffffff; /*Define a cor de fundo div botoes*/
+            margin: 20px 0; /*Coloca um espaçamento entre a div container e div botoes*/
+            display: grid; /*Define o modo em que botões são apresentados*/
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /*Define o modo em que botões são apresentados*/
+            gap: 20px; /*Define a distancia entre os botões*/
+        }
+
+        button {
+            background: rgb(193, 166, 166); /*Cor de fundo dos botões*/
+            color: rgb(0, 0, 0); /*Cor da fonte*/
+            border: none; /*Remove as bordas dos botões*/
+            border-radius: 8px; /*Arredonda as bordas dos botões*/
+            cursor: pointer; /*Muda o formato do cursor ao passar sobre os botões*/
+            font-size: 21px; /*Tamanho da fonte*/
+            font-weight: bold; /*Fonte em negrito*/
+            width: 100%; /*Iguala o tamanho dos botões*/
+            height: 120px; /*Iguala o tamanho dos botões*/
+        }
+
+        button:hover {
+            background-color: #444; /*Muda a cor dos botões ao passar o cursor*/
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <!-- Título da página -->
+        <div class="container">
+            <h1>Portfólio pessoal de Gabriel Cunha Carvalho</h1>   
+        </div>
+    </header>
+
+    <!-- Botões das páginas -->
+    <div class="container"> 
+        <div class="botoes">
+            <a href="Sobre mim.html"><button>Sobre Mim</button></a>
+            <a href="Formacao educacional.html"><button>Formação Educacional</button></a>
+            <a href="Portfolio.html"><button>Portfólio</button></a>
+            <a href="Contatos.html"><button>Contato</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
